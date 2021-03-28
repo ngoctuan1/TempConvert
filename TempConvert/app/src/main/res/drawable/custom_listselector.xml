@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Selected -->
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="10sp" />
+            <stroke android:width="3sp" />
+            <padding android:bottom="2sp" android:left="2sp" android:right="2sp" android:top="2sp" />
+            <solid android:color="#807F83"/>
+        </shape>
+    </item> <!--  @drawable/tab_focus -->
+
+    <!-- Pressed -->
+    <!--    <item-->
+    <!--        android:state_pressed="true"-->
+    <!--        android:drawable="@color/colorAccent" /> &lt;!&ndash;  @drawable/tab_press &ndash;&gt;-->
+
+</selector>
